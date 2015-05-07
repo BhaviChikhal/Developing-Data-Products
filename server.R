@@ -21,8 +21,6 @@ data <- mutate(data,AbsPres = ifelse(data$WnvPresent==0,"Absence","Presence"))
 data <- select(data,dmonth,dyear,Longitude,Latitude,species,NumMosquitos,AbsPres)
 
 # bind addition data for missing months (prevents error messages)
-#w <- head(data)
-#write.csv(w,file="additional_data.csv",row.names=FALSE)
 data <- rbind(data,add_data)
 
 #Define server logic required to generate and plot a mosquito heat map of chicago
@@ -44,9 +42,7 @@ shinyServer(function(input, output) {
         # render a summary data
         output$summary <- renderPrint({
                 dataset <- dataInput()
-                mean(dataset$WnvPresent)
+                sum(dataset$NumMosquitos)
         })
-        
-        
-        
+
 })

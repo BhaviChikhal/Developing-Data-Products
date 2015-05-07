@@ -5,7 +5,7 @@ library(shiny)
 shinyUI(pageWithSidebar(
         
         #Application Title
-        headerPanel("Mosquito Heat Map"),
+        headerPanel("Mosquito Heat Map of Chicago"),
         
         # Sidebar with a slider input for month
         sidebarPanel(
@@ -34,6 +34,7 @@ shinyUI(pageWithSidebar(
                 plotOutput("MapPlot"),
 
         # Show the mean of virus carrying mosquitos
+                h4("Total Number of Mosquitos"),
                 verbatimTextOutput("summary") 
         )
 ))
