@@ -33,6 +33,6 @@ Displayed are two maps showing the location and number of a chosen species of mo
 
 #### How to Use the App
 
-App usage is pretty straightforward.  There are two sliders to change the month and year.  There is also a selection menu to choose the mosquito species.
+App usage is pretty straightforward.  There are two sliders to change the month and year.  There is also a selection menu to choose the mosquito species.  The map (or maps) show the location of the traps with the number of mosquitos found indicated by the size of the dot.  One map shows mosquitos with the West Nile Virus present and the other with the virus absent.
 
 
