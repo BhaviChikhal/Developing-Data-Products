@@ -2,6 +2,10 @@
 
 ## Part 1 - Creating and Deploying a Shiny App
 
+Files:
+server.R
+ui.R
+
 #### Introduction
 
 There is currently a Kaggle competition to predict West Nile Virus in mosquitos across the Chicago area.  Here is an excerpt from the website.
@@ -35,4 +39,18 @@ Displayed are two maps showing the location and number of a chosen species of mo
 
 App usage is pretty straightforward.  There are two sliders to change the month and year.  There is also a selection menu to choose the mosquito species.  The map (or maps) show the location of the traps with the number of mosquitos found indicated by the size of the dot.  One map shows mosquitos with the West Nile Virus present and the other with the virus absent.
 
+Part II - R presenter presentation
+
+Files:
+Final_Project.Rpres
+Final_Project.md
+Final_Project-rpubs.html
+Final_Project-figure
+inputscreenshot.png
+outputscreenshot.png
+
+
+#### Introduction
+
+The second part of the project is to create a 5 slide presentation to pitch the shiny app developed in part I.  The presentation was created in R presenter and published in rpubs.
 
