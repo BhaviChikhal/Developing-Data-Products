@@ -13,8 +13,6 @@ There is currently a Kaggle competition to predict West Nile Virus in mosquitos 
 
 West Nile virus is most commonly spread to humans through infected mosquitos. Around 20% of people who become infected with the virus develop symptoms ranging from a persistent fever, to serious neurological illnesses that can result in death.
 
-
-
 In 2002, the first human cases of West Nile virus were reported in Chicago. By 2004 the City of Chicago and the Chicago Department of Public Health (CDPH) had established a comprehensive surveillance and control program that is still in effect today.
 
 Every week from late spring through the fall, mosquitos in traps across the city are tested for the virus. The results of these tests influence when and where the city will spray airborne pesticides to control adult mosquito populations.
@@ -40,18 +38,28 @@ Displayed are two maps showing the location and number of a chosen species of mo
 
 App usage is pretty straightforward.  There are two sliders to change the month and year.  There is also a selection menu to choose the mosquito species.  The map (or maps) show the location of the traps with the number of mosquitos found indicated by the size of the dot.  One map shows mosquitos with the West Nile Virus present and the other with the virus absent.
 
-Part II - R presenter presentation
+##Part II - R presenter presentation
 
 Files:
-Final_Project.Rpres
-Final_Project.md
-Final_Project-rpubs.html
-Final_Project-figure
-inputscreenshot.png
+
+Final_Project.Rpres,
+Final_Project.md,
+Final_Project-rpubs.html,
+Final_Project-figure,
+inputscreenshot.png,
 outputscreenshot.png
 
 
 #### Introduction
 
-The second part of the project is to create a 5 slide presentation to pitch the shiny app developed in part I.  The presentation was created in R presenter and published in rpubs.
+The second part of the project is to create a presentation to pitch the shiny app developed in part I.
+
+#### Presentation
+
+The presentation was required to contain the rolling
+
+- Exactly 5 slides to pitch the shiny app.
+- Developed in R presenter or slidify - mine was developed on R presenter
+- Published on either rubs or github - mine was published in rpubs.
+- Presentation must contain some embedded R code - mine is on the last slide to compute total number of mosquitos.
 
