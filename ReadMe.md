@@ -29,7 +29,9 @@ https://www.kaggle.com/c/predict-west-nile-virus
 This is an app to help visualize the fluctuation in the mosquito population.  There are three variables that can be adjusted:
 
 1) Month of observations
+
 2) Year of observations
+
 3) Species of mosquito
 
 Displayed are two maps showing the location and number of a chosen species of mosquito detected on the chosen month and year.  One map shows mosquitos when West Nile Virus is absent and the displays mosquitos when the virus is present.  In certain months, there are no mosquitos recorded or the virus is not detected and in those cases only one map is displayed.  Additionally, the total number mosquitos trapped is displayed for the chosen time period.
@@ -56,7 +58,7 @@ The second part of the project is to create a presentation to pitch the shiny ap
 
 #### Presentation
 
-The presentation was required to contain the rolling
+The presentation was required to contain the following:
 
 - Exactly 5 slides to pitch the shiny app.
 - Developed in R presenter or slidify - mine was developed on R presenter
