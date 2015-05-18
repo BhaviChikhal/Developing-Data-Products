@@ -5,7 +5,7 @@ library(shiny)
 shinyUI(pageWithSidebar(
         
         #Application Title
-        headerPanel("Presense and Absense of West Nile Virus in Chicago"),
+        headerPanel("Presence and Absence of West Nile Virus in Chicago"),
         
         # Sidebar with a slider input for month
         sidebarPanel(
